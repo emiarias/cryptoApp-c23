@@ -17,6 +17,10 @@ main {
   font-style: normal;
 }
 
+.carousel-control-prev, .carousel-control-next{
+  filter: invert(0);
+}
+
 @media (width >= 768px) {
    .img-carousel{
     height: 400px;
