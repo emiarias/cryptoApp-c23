@@ -17,5 +17,22 @@ main {
   font-style: normal;
 }
 
+@media (width >= 768px) {
+   .img-carousel{
+    height: 400px;
+    object-fit: cover;
+   } 
+}
+
+@media (width >= 992px) {
+   .img-carousel{
+    height: 500px;
+   } 
+
+   .img-monedas{
+    object-position: 50% 70% ;
+   }
+}
+
 
 
