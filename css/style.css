@@ -36,7 +36,7 @@ main {
     object-fit: cover;
   }
   .img-error-404 {
-    width: 65%;
+    width: 65%!important;
   }
   .img-telefono {
     width: 100%;
@@ -52,7 +52,7 @@ main {
     object-position: 50% 70%;
   }
   .img-error-404 {
-    width: 30%;
+    width: 30%!important;
   }
   .img-telefono {
     width: 75%;
