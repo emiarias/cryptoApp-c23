@@ -224,6 +224,64 @@
           </div>
         </div>
       </section>
+      <!-- Banner publicitario -->
+       <section class="container-fluid bg-primary-subtle py-5 text-center">
+        <h2>Únete a la Revolución de las Criptomonedas con CryptoFin</h2>
+        <p class="lead">
+          Regístrate hoy y empieza a invertir en criptomonedas con la plataforma
+          más confiable y segura del mercado.
+        </p>
+        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modalRegistro">
+          Crea tu cuenta ahora
+        </button>
+      </section>
+          <!-- Modal registro -->
+      <div
+        class="modal fade"
+        id="modalRegistro"
+        tabindex="-1"
+        aria-labelledby="modalRegistroLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="modalRegistroLabel">
+                Crea tu cuenta
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form autocomplete="off" id="formRegistro">
+                <div class="mb-3">
+                  <label for="nombre" class="form-label">Nombre y apellido *</label>
+                  <input type="text" class="form-control" id="nombre" placeholder="Ej: juan Perez" minlength="4" maxlength="100" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email *</label>
+                  <input type="email" class="form-control" id="email" placeholder="Ej: juanperez@mail.com" minlength="6" maxlength="256" required>
+                </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Contraseña *</label>
+                  <input type="password" class="form-control" id="password" minlength="8" maxlength="16" required>
+                </div>
+                <div class="mb-3">
+                  <label for="repetirPassword" class="form-label">Repetir contraseña *</label>
+                  <input type="password" class="form-control" id="repetirPassword" minlength="8" maxlength="16" required>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" type="submit" form="formRegistro">Registrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="bg-secondary-subtle py-3 text-center text-md-start">
       <div class="container">
